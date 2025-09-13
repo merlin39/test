@@ -1,4 +1,4 @@
-// ตั้งค่าเริ่มต้นให้ทุก accordion เป็นปิด
+
 function initAccordions(root = document) {
    root.querySelectorAll('.accordion-footer').forEach(acc => {
      const btn = acc.querySelector('.accordion-toggle');
